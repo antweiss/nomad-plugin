@@ -14,7 +14,7 @@ public class NomadApiTest {
     private NomadApi nomadApi = new NomadApi("http://localhost");
     private NomadSlaveTemplate slaveTemplate = new NomadSlaveTemplate(
             "300", "256", "100",
-            null, "remoteFs", "3",
+            null, "remoteFs", "3","1",
             "ams", "0", "image", "dc01", "", "", false, "bridge",""
     );
 
